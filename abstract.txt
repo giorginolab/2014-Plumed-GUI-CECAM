@@ -1,0 +1,21 @@
+
+Institute of Biomedical Engineering (ISIB-CNR)
+Consiglio Nazionale delle Ricerche
+Padua, Italy
+
+
+PLUMED-GUI 2.0: a GUI for the Rapid Prototyping of PLUMED Analysis and Biasing Scripts 
+
+
+PLUMED-GUI is an interactive tool to develop and test complex PLUMED scripts [1] within the Visual Molecular Dynamics (VMD) environment [2]. PLUMED users can leverage both PLUMED's rich syntax to define collective variables (CVs) and VMD's chemically-aware atom selection language, while working within a natural point-and-click interface.  
+
+The definition of well-known reaction coordinates is facilitated by templates and syntax mnemonics, while complex CVs, e.g. those involving reference snapshots used for RMSD or native contacts calculations, can be built through dialogs that provide a synoptic view of the options available.  Scripts can then be either evaluated immediately on the currently loaded molecular trajectories, or exported for non-interactive use (e.g. in simulations).  Development of scripts occurs without leaving VMD, facilitating an incremental try-see-modify development model for molecular metrics.
+
+The talk will review the features in the recently-released version PLUMED-GUI, including the new functionalities enabled by PLUMED 2.0 [3], such as context-aware syntax look-up and completion based on the self-documenting features of the latest version of the engine.
+
+
+[1] T. Giorgino, "PLUMED-GUI: An environment for the interactive development of molecular dynamics analysis and biasing scripts," Computer Physics Communications, vol. 185, no. 3, pp. 1109-1114, Mar. 2014.
+
+[2] W. Humphrey, A. Dalke, and K. Schulten, "VMD: Visual molecular dynamics," Journal of Molecular Graphics, vol. 14, no. 1, pp. 33-38, Feb. 1996.
+
+[3] G. A. Tribello, M. Bonomi, D. Branduardi, C. Camilloni, and G. Bussi, "PLUMED 2: New feathers for an old bird," Computer Physics Communications, vol. 185, no. 2, pp. 604-613, Feb. 2014.
